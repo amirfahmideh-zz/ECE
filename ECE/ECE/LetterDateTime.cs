@@ -9,17 +9,20 @@ namespace ECE
 {
     public class LetterDateTime
     {
+        private DateTime _datetime;
+
         [XmlAttribute]
         public DateType ShowAs { get; set; }
+
         [XmlText]
-        public string Value { get; set; }
+        public string Value { get { return _datetime.ToString("s", System.Globalization.CultureInfo.InvariantCulture); } set { DateTime.Parse(value); } }
         public LetterDateTime()
         {
 
         }
-        public LetterDateTime(string datetime, DateType showAs)
+        public LetterDateTime(DateTime datetime, DateType showAs)
         {
-            Value = datetime;
+            _datetime = datetime;
             ShowAs = showAs;
         }
     }

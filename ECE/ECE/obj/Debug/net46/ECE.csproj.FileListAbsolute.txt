@@ -1,0 +1,5 @@
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\ECE\bin\Debug\net46\ECE.dll
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\ECE\bin\Debug\net46\ECE.pdb
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\ECE\obj\Debug\net46\ECE.AssemblyInfo.cs
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\ECE\obj\Debug\net46\ECE.dll
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\ECE\obj\Debug\net46\ECE.pdb

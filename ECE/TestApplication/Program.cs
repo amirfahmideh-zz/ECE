@@ -18,7 +18,7 @@ namespace TestApplication
             letter.Sender = new ECE.Sender("Algorithm Pouya", "100");
             letter.Receiver = new ECE.Receiver("Algorithm Pouya", "100");
             letter.Keywords.Add(new ECE.Keyword() { Value = "LetterInformation" });
-            letter.LetterDateTime = new ECE.LetterDateTime(DateTime.Now.ToString(), ECE.DateType.Gregorian);
+            letter.LetterDateTime = new ECE.LetterDateTime(DateTime.Now, ECE.DateType.Gregorian);
 
             var serlizeString = ECE.Letter.Serialize(letter);
             Console.WriteLine(serlizeString);

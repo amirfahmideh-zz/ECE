@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
 using System.Xml.Serialization;
 
 namespace ECE
@@ -27,10 +28,20 @@ namespace ECE
         public static string Serialize(Letter letter)
         {
             XmlSerializer xmlSerializer = new XmlSerializer(letter.GetType());
+
             using (StringWriter stringWriter = new StringWriter())
             {
                 xmlSerializer.Serialize(stringWriter, letter);
                 return stringWriter.ToString();
+            }
+        }
+        public static Letter DeSerialize(string xmlText)
+        {
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Letter));
+            using (StringWriter stringWriter = new StringWriter())
+            {
+                StringReader stringReader = new StringReader(xmlText);
+                return (Letter)xmlSerializer.Deserialize(stringReader);
             }
         }
     }

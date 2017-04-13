@@ -24,6 +24,11 @@ namespace TestApplication
             Console.WriteLine(serlizeString);
             Console.ReadKey();
 
+            var deLetter = ECE.Letter.DeSerialize(serlizeString);
+            Console.WriteLine(letter.LetterNo);
+            Console.WriteLine(letter.Subject);
+            Console.ReadKey();
+
         }
     }
 }

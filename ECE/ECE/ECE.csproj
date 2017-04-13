@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net46</TargetFramework>
+    <Authors>Amir Fahmideh (amir.fahmideh@gmail.com)</Authors>
+    <Company>whiz.ir</Company>
+    <Product>ECE Protocol for authomation</Product>
+    <Copyright>whiz.ir</Copyright>
+    <PackageTags>ECE;Automation;Whiz.ir</PackageTags>
+    <NeutralLanguage></NeutralLanguage>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Description>Class library helper to create and manage ece protocol base on 1.01</Description>
+    <Version>1.0.0.1</Version>
+  </PropertyGroup>
+
+</Project>

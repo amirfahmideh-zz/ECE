@@ -1,0 +1,8 @@
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\bin\Debug\TestApplication.exe.config
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\bin\Debug\TestApplication.exe
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\bin\Debug\TestApplication.pdb
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\bin\Debug\ECE.dll
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\bin\Debug\ECE.pdb
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\obj\Debug\TestApplication.exe
+D:\_Repositories\amirfahmideh.visualstudio.com\ECE\ECE\TestApplication\obj\Debug\TestApplication.pdb
